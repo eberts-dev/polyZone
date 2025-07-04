@@ -1,8 +1,6 @@
 # polyZone
 
-[Демо на GitHub Pages](https://eberts-dev.github.io/polyZone/)
-
-Демонстрации работы с Web Components и интерактивной SVG-графикой.
+Демонстрации работы с **Web Components** и интерактивной SVG-графикой
 
 ## Описание
 
@@ -45,3 +43,5 @@
 - **Grid** — отрисовка сетки и осей координат
 
 ---
+
+[Демо на GitHub Pages](https://eberts-dev.github.io/polyZone/)
