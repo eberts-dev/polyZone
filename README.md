@@ -29,6 +29,20 @@
 └── index.js # Точка входа
 
 
+polyZone/
+  src/
+    components/      # Основные Web Components
+      AppLayout.js   # Корневой layout-компонент
+      BufferZone.js  # Буферная зона для генерации и хранения полигонов
+      WorkZone.js    # Рабочая зона для размещения и манипуляций с полигонами
+      ControlPanel.js  # Панель управления
+      Grid.js          # Компонент для отрисовки сетки и осей
+    utils/           # Утилиты
+      polygonGenerator.js 		# Генерация случайных полигонов
+      randomColor.js      		# Генерация случайных цветов
+    services/        					# Сервисы
+      storageService.js   		# Работа с localStorage
+    index.js         					# Точка входа
 ```
 
 ## Основные функции
