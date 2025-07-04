@@ -12,18 +12,18 @@
 
 ```
 ├── src/
-│			├── components/      # Web Components (UI-блоки)
-│			├── AppLayout.js     # Корневой layout-компонент
-│			├── BufferZone.js    # Буферная зона
-│			├── WorkZone.js      # Рабочая зона
-│			├── ControlPanel.js  # Панель управления
-│			└── Grid.js          # для отрисовки сетки и осей
+│    ├── components/      # Web Components (UI-блоки)
+│    ├── AppLayout.js     # Корневой layout-компонент
+│    ├── BufferZone.js    # Буферная зона
+│    ├── WorkZone.js      # Рабочая зона
+│    ├── ControlPanel.js  # Панель управления
+│		 └── Grid.js          # для отрисовки сетки и осей
 ├── utils/
-│	 		├── polygonGenerator.js  # Генерация случайных полигонов
-│   		└── randomColor.js     # Генерация случайных цветов
+│    ├── polygonGenerator.js  # Генерация случайных полигонов
+│        └── randomColor.js   # Генерация случайных цветов
 ├── services/
-│  		└── storageService.js    # Работа с localStorage
-└── index.js                   # Точка входа
+│    └── storageService.js    # Работа с localStorage
+└── index.js                  # Точка входа
 
 ```
 
