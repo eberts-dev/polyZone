@@ -17,10 +17,10 @@
 │    ├── BufferZone.js    # Буферная зона
 │    ├── WorkZone.js      # Рабочая зона
 │    ├── ControlPanel.js  # Панель управления
-│		 └── Grid.js          # для отрисовки сетки и осей
+│    └── Grid.js          # для отрисовки сетки и осей
 ├── utils/
 │    ├── polygonGenerator.js  # Генерация случайных полигонов
-│        └── randomColor.js   # Генерация случайных цветов
+│    └── randomColor.js   # Генерация случайных цветов
 ├── services/
 │    └── storageService.js    # Работа с localStorage
 └── index.js                  # Точка входа
