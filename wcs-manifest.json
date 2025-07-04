@@ -1,0 +1,45 @@
+{
+  "title": "polyZone",
+  "shortName": "PZone",
+  "description": "A simple and catchy name combining polygon and zone.",
+  "descriptionAbstract": "Pzone, reflecting the two workspace areas.",
+  "license": "AGPL-3.0-or-later",
+  "repositoryUrl": "...",
+  "copyrightHolders": [
+    {
+      "name": "NOI",
+      "email": "info@noi.bz.it",
+      "organization": "NOI S.p.A",
+      "organizationUrl": "https://noi.bz.it"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Roman",
+      "email": "...",
+      "organization": "...",
+      "organizationUrl": "..."
+    }
+  ],
+  "image": "wcs-logo.png",
+  "searchTags": ["testing", "tools"],
+  "dist": {
+    "basePath": "dist",
+    "files": ["webcomp-boilerplate.min.js"],
+    "scripts": []
+  },
+  "configuration": {
+    "tagName": "Pzone",
+    "options": [
+      {
+        "key": "title",
+        "type": "text",
+        "label": "title of the web-comp",
+        "required": false,
+        "options": {
+          "default": "hello-world"
+        }
+      }
+    ]
+  }
+}
